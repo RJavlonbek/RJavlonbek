@@ -1,0 +1,162 @@
+body{
+	background-color: #eeeeee;
+}
+
+.name, .page_title h1{
+	color: white;
+	text-align: center;
+	background-color: #333333;
+	height: 55px;
+	padding-top: 10px;
+}
+
+.image img{
+	width: 575px;
+	height: 750px;
+	position:absolute;
+	right: 20px;
+	border-radius: 10px;
+	border:5px solid #444444;
+}
+
+.image img:hover{
+	box-shadow: 5px 5px 5px black;
+}
+
+.details{
+	border-bottom: 4px solid #336699;
+	border-right: 4px solid #336699;
+	width:715px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.hobbies{
+	margin-top: 50px;
+	margin-left: 10px;
+	width:700px;
+	text-align: justify;
+	border-bottom: 4px solid #336699;
+	border-right: 4px solid #336699;
+	padding-right: 15px;
+}
+
+.hobbies ul{
+	font-family: "Comic Sans MS";
+	list-style-type:cjk-ideographic;
+}
+
+.hobbies h2{
+	text-align: center;
+	color:#336699;
+}
+
+a .link_movies, a .link_home{
+	width:695px;
+	border:4px solid #336699;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-color: #aaaaaa;
+	padding:10px;
+	display: inline-block;
+	font-family:"Ar Destine";
+    font-size: 1.2em;
+    text-align: center;
+    color:#336699;
+}
+
+a .link_home{
+	margin-top: 10px;
+	margin-left: 310px;
+}
+
+a .link_movies:hover, a .link_home:hover{
+    background-color: #eeeeee;
+    color:#111111;
+}
+
+
+
+
+
+
+.fav_movies li{
+	list-style-type: none;
+	padding: 5px;
+	margin: 0px;
+	margin-left: -40px;
+	border-bottom: 4px black solid;
+}
+
+.fav_movies li:hover{
+    background-color: #333333;
+}
+
+.movies{
+	background-color: #222222;
+}
+
+.movies .image1{
+	width: 185px;
+	height: 278px;
+}
+
+.movie_image, .movie_details{
+	display: inline-block;
+
+}
+
+.movie_details{
+	vertical-align: top;
+	margin:0px;
+	margin-left: 20px;
+}
+
+.movie_details p{
+	padding: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+	margin:0px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+}
+
+.genre, .date{
+	border-radius: 5px;
+	border: black 1px solid;
+	padding: 5px;
+	color:#bbbbff;
+	font-style: italic;
+	display: inline-block;
+}
+
+.description{
+	text-align: justify;
+	color:#666666;
+}
+
+
+.producer img, .place img, .time img, .rewards img{
+	margin-right: 4px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.producer, .place, .time, .rewards{
+	font-family: "verdana";
+	color:#cccccc;
+}
+
+.movie_details .movie_title{
+	font-size: 2em;
+	font-family: "verdana";
+	border-bottom: 1.5px solid black;
+	color: #cccccc;
+	font-weight: bold;
+}
+
+.rewards{
+	border-bottom: 1.5px solid black;
+}
+
